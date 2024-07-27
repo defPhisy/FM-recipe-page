@@ -173,6 +173,10 @@ tr {
   border-bottom: 1px solid var(--color-stone-150);
 }
 
+tr:nth-last-child(1) {
+  border-bottom: none;
+}
+
 th {
   font-weight: normal;
   text-align: left;
